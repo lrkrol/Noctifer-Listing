@@ -50,7 +50,7 @@ $colours = array(
 # index file is present, and array of directories not to copy to.
 # blacklisted directories (see next) are always excluded.
 $copyToSubs = true;
-$copyToSubsExcluded = array("excltest", "old");
+$copyToSubsExcluded = array("..");
 
 # list of directory or file names not to list by the script
 $blacklistArray = array(".git");

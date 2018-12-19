@@ -1,0 +1,27 @@
+
+Changelog Noctifer Directory Listing Script
+
+1.11 2018-12-19
+- Made design responsive, removing size/date info on mobile
+- Changed file/directory icons
+- Added option to have the script copy itself to subdirectories
+- Encoded all URLs
+- Included Noctifer sample logo as data rather than separate file
+- Added blacklistArray
+- Aligned file sizes
+- Additional layout changes
+
+1.03 2017-03-24
+- Minor layout fixes.
+
+1.02 2015-04-14
+- Minor layout fixes.
+
+1.01 2015-04-07
+- Replaced round() with sprintf() to force two-digit decimals (e.g. 1.50 instead of 1.5).
+
+1.00 2015-01-10
+- First version
+
+0.90 2014-01-30
+- Initial alpha

@@ -201,6 +201,7 @@ function compareName($a, $b) {
                     text-indent: -40px; padding-left: 40px; }
 
                 #path a {
+                        padding-top: 1px;
                         color: <?php echo $colour; ?>;
                         text-decoration: none; }
 
@@ -209,6 +210,7 @@ function compareName($a, $b) {
                             background: <?php echo $colour; ?>; }
 
                     #activedir {
+                            padding-top: 1px;
                             color: white;
                             white-space: nowrap;
                             font-weight: bold;

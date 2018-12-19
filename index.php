@@ -304,7 +304,7 @@ function compareName($a, $b) {
             body { font-size: medium; }
             #header { height: auto; margin-top: .5em;}
             #header, #container, #footer { width: 90%; min-width: auto; }
-            #logo, .filesize, .filedate { display: none; }
+            #logo, .filesize, .filesizescale, .filedate { display: none; }
         }
     </style>
 </head>

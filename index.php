@@ -328,7 +328,7 @@ function compareName($a, $b) {
                     echo "<a href=\"" . str_repeat("../", rawurlencode($i)) . "\">&nbsp;/{$path[$i]} </a>";
                 }
             }
-        ?>&nbsp;<span class="nowrap">(<?php echo $dirSize; ?>)</span></div>
+        ?>&nbsp;<span class="nowrap">(<?php echo trim($dirSize); ?>)</span></div>
     <?php if ( $useHeaderImage ) { echo "<div id=\"logo\"><a href=\"$headerImageLink\"><img src=\"$headerImage\" alt=\"\" /></a></div>\n"; } ?>
 </div>
 <div id="container">

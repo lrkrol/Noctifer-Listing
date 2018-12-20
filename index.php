@@ -279,14 +279,17 @@ function compareName($a, $b) {
                 .filesize {
                         padding-left: 10px;
                         white-space: pre;
+                        vertical-align: bottom;
                         text-align: right; }
 
                 .filesizescale {
                         padding-left: 5px;
+                        vertical-align: bottom;
                         text-align: left; }
 
                 .filedate {
                         padding-left: 10px;
+                        vertical-align: bottom;
                         text-align: right;}
 
         .nowrap {

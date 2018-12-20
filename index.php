@@ -354,10 +354,10 @@ function compareName($a, $b) {
             $link = $file['name'] . ($file['ext'] == "" ? "" : "." . $file['ext']);
 
             echo "\n        <tr>\n";
-            echo "           <td class=\"filename\"><a href=\"" . urlencode($link) . "\"><span class=\"filesymbol\">&#x25a1;</span> {$file['name']}" .  ($file['ext'] == "" ? "" : " <span class=\"filenameext\">{$file['ext']}</span>") . "</a></td>\n";
-            echo "           <td class=\"filesize\"><a href=\"" . urlencode($link) . "\">" . substr($file['size'], 0, -3) . "</a></td>\n";
-            echo "           <td class=\"filesizescale\"><a href=\"" . urlencode($link) . "\">" . substr($file['size'], -2, 2) . "</a></td>\n";
-            echo "           <td class=\"filedate nowrap\"><a href=\"" . urlencode($link) . "\">{$file['date']}</a></td>\n";
+            echo "           <td class=\"filename\"><a href=\"" . rawurlencode($link) . "\"><span class=\"filesymbol\">&#x25a1;</span> {$file['name']}" .  ($file['ext'] == "" ? "" : " <span class=\"filenameext\">{$file['ext']}</span>") . "</a></td>\n";
+            echo "           <td class=\"filesize\"><a href=\"" . rawurlencode($link) . "\">" . substr($file['size'], 0, -3) . "</a></td>\n";
+            echo "           <td class=\"filesizescale\"><a href=\"" . rawurlencode($link) . "\">" . substr($file['size'], -2, 2) . "</a></td>\n";
+            echo "           <td class=\"filedate nowrap\"><a href=\"" . rawurlencode($link) . "\">{$file['date']}</a></td>\n";
             echo "        </tr>";
         }
         echo "\n    </table>\n";

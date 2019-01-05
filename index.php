@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!--
-Noctifer Directory Listing Script 1.11
+Noctifer Directory Listing Script 1.12
 Copyright 2014, 2015, 2018 Laurens R Krol
 noctifer.net, lrkrol.com
 
@@ -167,7 +167,7 @@ function compareName($a, $b) {
 <head>
     <meta charset="utf-8" />
     
-    <title><?php echo "directory: " . ($thisDir == '' ? "/" : $thisDir); ?></title>
+    <title><?php echo "Index of " . ($thisDir == '' ? "/" : $thisDir); ?></title>
 
     <meta name="description" content="directory index listing at <?php echo $_SERVER['HTTP_HOST'] ?>">
     <meta name="author" content="Laurens R Krol" />

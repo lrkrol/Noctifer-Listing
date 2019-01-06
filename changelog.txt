@@ -1,6 +1,9 @@
 
 Changelog Noctifer Directory Listing Script
 
+1.12 2019-01-05
+- Changed page title to "Index of ..." in line with standards
+
 1.11 2018-12-19
 - Made design responsive, removing size/date info on mobile
 - Changed file/directory icons
